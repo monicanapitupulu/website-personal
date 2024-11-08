@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monica Natalina</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Perpustakaan</h1>
+    <div class="form-container">
+      <input type="text" id="memberName" placeholder="Nama Anggota">
+      <input type="text" id="bookTitle" placeholder="Judul Buku">
+      <input type="tel" id="phoneNumber" placeholder="Nomor Telepon">
+      <input type="tel" id="npm" placeholder="NPM">
+      <button id="addButton" onclick="addMemberBook()">Tambah</button>
+    </div>
+    <div class="table-container">
+        <table id="memberBookTable">
+            <thead>
+              <tr>
+                <th>No</th>
+                <th>Nama Anggota</th>
+                <th>Judul Buku</th>
+                <th>Nomor Telepon</th>
+                <th>NPM</th>
+                <th>Aksi</th>
+              </tr>
+            </thead>
+            <tbody id="memberBookList"></tbody>
+          </table>
+          
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
