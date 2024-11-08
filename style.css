@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('pict/wallpaper.png'); /* Ganti 'background.jpg' dengan nama file gambar Anda */
+    background-image: url('wallpaper.png'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@ body {
 .container {
     width: 80%;
     max-width: 800px;
-    background-color: rgba(255, 255, 255, 0.9); /* Warna putih transparan */
+    background-color: rgba(255, 255, 255, 0.9); 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -33,7 +33,7 @@ h1 {
 }
 
 input[type="text"],
-input[type="number"] {
+input[type="tel"] {
     flex: 1;
     padding: 10px;
     border: 1px solid #ddd;
